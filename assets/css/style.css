@@ -218,6 +218,7 @@ body.active { overflow: hidden; }
   background: var(--color-primary);
   color: var(--bg-primary);
   align-self: flex-end;
+  white-space: nowrap;
 }
 
 .btn-secondary {
@@ -225,6 +226,7 @@ body.active { overflow: hidden; }
   border-color: var(--raw-seinna);
   color: var(--black);
   align-self: flex-end;
+  white-space: nowrap;
 }
 
 .btn-secondary:is(:hover, :focus) { --raw-seinna: hsl(24, 74%, 64%); }
@@ -990,7 +992,7 @@ textarea.input-field {
 
   .btn-group {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 20px;
   }
